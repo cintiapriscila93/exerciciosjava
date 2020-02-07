@@ -1,0 +1,19 @@
+package br.com.bertini.exercicio;
+
+import br.com.bertini.exercicio.dominio.CalculoBonus;
+import br.com.bertini.exercicio.dominio.Estagiario;
+import br.com.bertini.exercicio.dominio.Gerente;
+import br.com.bertini.exercicio.dominio.Programador;
+
+public class Executor {
+
+	public static void main(String[] args) {
+		CalculoBonus calculobonusestagiario = new Estagiario("Cintia", 27, 2000.0);
+		System.out.println(calculobonusestagiario);
+		CalculoBonus calculobonusgerente = new Gerente("Ana", 35, 15000.0);
+		System.out.println(calculobonusgerente);
+		CalculoBonus calculobonusprogramador = new Programador("Matheus", 28, 10000.0);
+		System.out.println(calculobonusprogramador);
+	}
+
+}

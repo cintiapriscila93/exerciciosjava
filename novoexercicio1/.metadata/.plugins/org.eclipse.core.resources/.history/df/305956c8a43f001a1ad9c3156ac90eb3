@@ -1,0 +1,17 @@
+package br.com.bertini.exercicio.calculadora;
+
+import java.util.Scanner;
+
+public class ExecutorComIf {
+
+	public static void main(String[] args) {
+		try(Scanner entrada = new Scanner(System.in)){
+			System.out.println("Escolha a operação: 1 - Soma || 2 - Subtração || 3 - Multiplicação || 4 - Divisão");
+			
+			
+			
+		}
+
+	}
+
+}

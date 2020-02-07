@@ -1,0 +1,48 @@
+package br.com.bertini.exercicio.calculadora;
+
+import java.util.Scanner;
+
+import br.com.bertini.exercicio.calculadora.dominio.Calculo;
+import br.com.bertini.exercicio.calculadora.servico.impl.DivisaoServico;
+import br.com.bertini.exercicio.calculadora.servico.impl.MultiplicacaoServico;
+import br.com.bertini.exercicio.calculadora.servico.impl.SomaServico;
+import br.com.bertini.exercicio.calculadora.servico.impl.SubtracaoServico;
+
+public class ExecutorComIf {
+
+	public static void main(String[] args) {
+		try (Scanner entrada = new Scanner(System.in)) {
+			System.out.println("Escolha a operação: 1 - Soma || 2 - Subtração || 3 - Multiplicação || 4 - Divisão");
+			int operacao = entrada.nextInt();
+
+			System.out.println("Primeiro valor: ");
+			Double valor1 = entrada.nextDouble();
+
+			System.out.println("Segundo valor: ");
+			Double valor2 = entrada.nextDouble();
+
+			Calculo calculo;
+
+			if (operacao == 1) {
+				calculo = new SomaServico();
+
+			} else if (operacao == 2) {
+				calculo = new SubtracaoServico();
+
+			} else if (operacao == 3) {
+				calculo = new MultiplicacaoServico();
+			}
+
+			else if (operacao == 4) {
+				calculo = new DivisaoServico();
+			}
+
+			System.out.println("Resultado: " + calculo.calculo(valor1, valor2));
+
+		}
+
+	}
+
+}
+
+

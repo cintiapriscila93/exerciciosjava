@@ -1,0 +1,14 @@
+package br.com.bertini.exercicio;
+
+import br.com.bertini.exercicio.dominio.CalculoBonus;
+import br.com.bertini.exercicio.dominio.Estagiario;
+
+public class Executor {
+
+	public static void main(String[] args) {
+		CalculoBonus calculobonus = new Estagiario();
+		
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package br.com.bertini.exercicio.dominio;
+
+import java.time.LocalDate;
+
+public class Boleto {
+	
+	private String CodigoDigitavel;
+	private LocalDate Vencimento;
+	
+
+}

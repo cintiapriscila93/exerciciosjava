@@ -1,0 +1,20 @@
+package br.com.bertini.exercicio.dominio;
+
+import java.time.LocalDate;
+
+public class Boleto extends FormaPagamento {
+	
+	public Boleto(Double valor) {
+		super(valor);
+	}
+	public String getCodigoDigitavel() {
+		return CodigoDigitavel;
+	}
+	public void setCodigoDigitavel(String codigoDigitavel) {
+		CodigoDigitavel = codigoDigitavel;
+	}
+	private String CodigoDigitavel;
+	private LocalDate Vencimento;
+	
+
+}

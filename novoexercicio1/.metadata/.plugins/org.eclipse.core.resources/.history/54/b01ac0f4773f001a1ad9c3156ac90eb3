@@ -1,0 +1,9 @@
+package br.com.bertini.exercicio.dominio;
+
+public class CartaoCredito {
+	
+	private String numero;
+	private String validade;
+	private String nomeTitular;
+
+}

@@ -1,0 +1,9 @@
+package br.com.bertini.exercicio.dominio;
+
+import br.com.bertini.exercicio.servico.CalculaBonusServico;
+
+public interface CalculoBonus {
+	
+	public Double calculoBonus();
+    CalculaBonusServico  calculabonusservico = new CalculaBonusServico() ;
+}

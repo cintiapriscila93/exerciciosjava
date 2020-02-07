@@ -1,0 +1,12 @@
+package br.com.bertini.exercicio.dominio;
+
+public class CartaoCredito extends FormaPagamento {
+	
+	public CartaoCredito(Double valor) {
+		super(valor);
+	}
+	private String numero;
+	private String validade;
+	private String nomeTitular;
+
+}

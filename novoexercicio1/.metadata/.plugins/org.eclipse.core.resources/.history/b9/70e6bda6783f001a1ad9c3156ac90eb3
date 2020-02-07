@@ -1,0 +1,14 @@
+package br.com.bertini.exercicio.dominio;
+
+public class DebitoConta {
+	private String CodigoBanco;
+	private String numeroConta;
+	private String numeroAgencia;
+	public String getCodigoBanco() {
+		return CodigoBanco;
+	}
+	public void setCodigoBanco(String codigoBanco) {
+		CodigoBanco = codigoBanco;
+	}
+
+}

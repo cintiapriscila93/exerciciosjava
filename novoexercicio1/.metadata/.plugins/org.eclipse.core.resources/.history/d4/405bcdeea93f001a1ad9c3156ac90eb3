@@ -1,0 +1,14 @@
+package br.com.bertini.exercicio.calculadora;
+
+public class ExecutorStrategy {
+
+	public static void main(String[] args) {
+		try {Scanner
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+
+	}
+
+}

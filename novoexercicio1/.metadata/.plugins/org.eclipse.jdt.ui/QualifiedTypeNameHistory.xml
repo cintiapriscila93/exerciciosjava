@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="br.com.bertini.exercicio.dominio.Cliente"/>
+<fullyQualifiedTypeName name="br.com.bertini.exercicio.servico.ClienteServico"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="java.time.Month"/>
+<fullyQualifiedTypeName name="br.com.bertini.exercicio.dominio.Boleto"/>
+<fullyQualifiedTypeName name="br.com.bertini.exercicio.dominio.CartaoCredito"/>
+<fullyQualifiedTypeName name="br.com.bertini.exercicio.dominio.DebitoConta"/>
+<fullyQualifiedTypeName name="br.com.bertini.exercicio.dominio.CalculoBonus"/>
+<fullyQualifiedTypeName name="br.com.bertini.exercicio.dominio.Estagiario"/>
+<fullyQualifiedTypeName name="br.com.bertini.exercicio.dominio.Gerente"/>
+<fullyQualifiedTypeName name="br.com.bertini.exercicio.dominio.Programador"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="br.com.bertini.exercicio.servico.CalculaBonusServico"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="br.com.bertini.exercicio.calculadora.dominio.Calculo"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Optional"/>
+<fullyQualifiedTypeName name="br.com.bertini.exercicio.calculadora.dominio.TipoCalculo"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="br.com.bertini.exercicio.calculadora.servico.impl.SomaServico"/>
+<fullyQualifiedTypeName name="br.com.bertini.exercicio.calculadora.servico.impl.MultiplicacaoServico"/>
+<fullyQualifiedTypeName name="br.com.bertini.exercicio.calculadora.servico.impl.SubtracaoServico"/>
+<fullyQualifiedTypeName name="br.com.bertini.exercicio.calculadora.servico.impl.DivisaoServico"/>
+</qualifiedTypeNameHistroy>

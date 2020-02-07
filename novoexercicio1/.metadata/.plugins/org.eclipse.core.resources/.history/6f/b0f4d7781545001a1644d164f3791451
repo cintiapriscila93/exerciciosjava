@@ -1,0 +1,24 @@
+package br.com.bertini.cadastrocliente.domain;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.EntityListeners;
+import javax.persistence.Table;
+
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+
+@Entity
+@Table(name = "cliente")
+@EntityListeners(AuditingEntityListener.class)
+@JsonIgnoreProperties(value = {"createdAt", "updateAt"}, allowGetters = true)
+
+public class Cliente implements Serializable {
+	
+	
+	
+
+}

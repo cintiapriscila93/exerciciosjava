@@ -1,0 +1,5 @@
+package br.com.bertini.cadastrocliente.exception;
+
+public class DataNotFoundException {
+
+}

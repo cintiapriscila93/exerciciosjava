@@ -1,0 +1,51 @@
+package br.com.bertini.cadastrocliente.domain;
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.EntityListeners;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+
+@Entity
+@Table(name = "cliente")
+@EntityListeners(AuditingEntityListener.class)
+@JsonIgnoreProperties(value = {"createdAt", "updateAt"}, allowGetters = true)
+
+public class Cliente implements Serializable {
+
+	private static final long serialVersionUID = 5198859694450224738L;
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	@NotBlank
+	private String nome;
+	
+	@NotNull
+	private Integer idade;
+	
+	@NotBlank
+	private String profissao;
+	
+	@NotBlank
+	@Column(name = "estado_civil")
+	private String estadoCivil;
+	
+	
+	
+	
+	
+
+}

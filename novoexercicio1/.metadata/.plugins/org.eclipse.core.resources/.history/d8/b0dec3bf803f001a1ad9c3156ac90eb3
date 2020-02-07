@@ -1,0 +1,6 @@
+package br.com.bertini.exercicio.dominio;
+
+public class Estagiario extends Funcionario implements CalculoBonus {
+
+
+}

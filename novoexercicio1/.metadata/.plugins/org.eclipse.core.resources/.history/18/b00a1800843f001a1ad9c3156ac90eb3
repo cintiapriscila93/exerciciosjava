@@ -1,0 +1,10 @@
+package br.com.bertini.exercicio.dominio;
+
+public class Gerente extends Funcionario implements CalculoBonus{
+
+	@Override
+	public Double calculoBonus() {
+		return salario * 3;
+	}
+
+}

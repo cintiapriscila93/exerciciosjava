@@ -1,0 +1,33 @@
+package br.com.bertini.exercicio.calculadora.dominio;
+
+import br.com.bertini.exercicio.calculadora.servico.impl.SomaServico;
+
+public enum TipoCalculo {
+	
+	SOMA(1){
+		@Override
+		public Calculo obterTipoCalculo() {
+			return new SomaServico();
+			
+
+		}
+	},
+	
+	SUBTRACAO(2){
+
+	public Calculo obterTipoCalculo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	};
+
+	
+	
+	
+	
+	}
+	
+	
+
+

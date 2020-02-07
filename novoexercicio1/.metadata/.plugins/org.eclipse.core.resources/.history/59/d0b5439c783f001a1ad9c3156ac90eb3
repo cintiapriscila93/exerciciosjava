@@ -1,0 +1,8 @@
+package br.com.bertini.exercicio.dominio;
+
+public class DebitoConta {
+	private String CodigoBanco;
+	private String numeroConta;
+	private String numeroAgencia;
+
+}
